@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<ctype.h>
 int main()
 {
 int no;
 scanf("%d",&no);
-if(no>=0 && no<=9)
+if(isdigit(no))
   printf("yes");
 else
   printf("no");
