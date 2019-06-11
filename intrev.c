@@ -9,4 +9,5 @@ num=num*place+arr%10;
 arr/=10;
 place=10;
 }
+  printf("%lld",num);
 }
