@@ -29,6 +29,7 @@ void insert(int input)
        for(tptr=start,prev=NULL;tptr && tptr->data<input;prev=tptr,tptr=tptr->next);
        if(tptr==start)
        {
+           newnode->next=start;
            start=newnode;
        }
        else if(tptr==NULL)
