@@ -7,7 +7,7 @@ if(no%2==0)
 {
 printf("Even");
 }
-else if(no%2!=0)
+else if(no%2!=0 && no>0)
 {
 printf("Odd");
 
