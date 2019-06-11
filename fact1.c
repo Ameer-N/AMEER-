@@ -1,4 +1,5 @@
 #include<stdio.h>
+//fact
 int fact(int no)
 {
 if(no==0)
