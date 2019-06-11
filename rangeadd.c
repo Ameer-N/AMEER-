@@ -13,5 +13,5 @@ for(j=0;j<b;j++)
 sum+=arr[j];
 }
 
-printf("%d',sum);
+printf("%d",sum);
 }
