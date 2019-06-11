@@ -1,5 +1,5 @@
 #include<stdio.h>
-//fact
+//fact1
 int fact(int no)
 {
 if(no==0)
