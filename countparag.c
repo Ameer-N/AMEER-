@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+//count
 int main()
 {
   char a[1000],len=0,count=0,i;
