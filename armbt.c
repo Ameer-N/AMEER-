@@ -3,7 +3,7 @@ int main()
 {
 int rem,no,no2,safe,sum=0,i;
 scanf("%d %d",&no,&no2);
-for(i=no;i<=no2;i++)
+for(i=no+1;i<no2;i++)
 {
     sum=0;
 safe=i;
