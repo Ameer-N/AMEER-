@@ -1,22 +1,21 @@
 #include<stdio.h>
 int main()
 {
-int a;
+int a,i,flag=0;
 scanf("%d",&a);
 for(i=2;i<a/2;i++)
 {
-if(i%2!=0|| i==2)
-{
-if(a%i==0)
+if(a%2==0)
+  flag=1;
   break;
-if(i>a/2)
+ 
+}
+if(flag==0)
 {
-printf("yes");
+	printf("yes");
 }
 else
 {
-printf("no");
-
-}
+	printf("no");
 }
 }
