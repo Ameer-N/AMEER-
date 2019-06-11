@@ -3,15 +3,15 @@
 int main()
 {
 char a[100];
-int i,sum=0;
+int i,sum=0,x;
 scanf("%s",a);
 for(i=0;a[i];i++)
 {
-if(a[0]=='X' || a[i]=='x')
+if(a[0]=='X' || a[0]=='x')
 {
 x=10;
 }
-else if(a[0]!='X' || a[i]=='x')
+else if(a[0]!='X' || a[0]!='x')
 {
 x=8;
 }
