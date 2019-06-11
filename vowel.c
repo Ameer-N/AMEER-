@@ -9,6 +9,6 @@ int main()
   }
   else
   {
-    printf("invalid1");
+    printf("invalid");
   }
 }
