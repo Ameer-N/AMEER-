@@ -22,7 +22,7 @@ arr[j]=swap;
 }
 for(i=0;i<no;i++)
 {
-printf("%d",arr[i]);
+printf("%d ",arr[i]);
 }
 
 }
