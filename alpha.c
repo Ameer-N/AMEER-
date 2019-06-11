@@ -1,5 +1,5 @@
 #include<stdio.h>
-#checking
+//checking
 int main()
 {
 char ch;
