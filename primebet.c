@@ -1,13 +1,22 @@
 #include<stdio.h>
 int main()
 {
-int a,i,flag=0;
+int a,i,b,j,flag=0;
 scanf("%d %d",&a,&b);
-for(i=a;i<b/2;i++)
+for(i=a;i<=b;i++)
 {
-if(a%i!=0)
+    flag=0;
+for(j=2;j<=i/2;j++)
 {
-printf("%d",i);
+if(i%j==0)
+{
+flag=1;
+break;
+}
+}
+if(flag==0)
+{
+    printf("%d ",i);
 }
 }
 
