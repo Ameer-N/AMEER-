@@ -1,14 +1,12 @@
 #include<stdio.h>
-#include<ctype.c>
+#include<ctype.h>
 int main()
 {
-int no;
+int a,no,i;
 scanf("%d",&no);
-if(isdigit(no))
-  printf("yes");
-else
-  printf("no");
-  
-
-
+for(i=0;i<no;i++)
+{
+   scanf("%d",&a);
+   printf("%d %d\n",a,i);
+}
 }
