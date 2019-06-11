@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<limits.h>
 int main()
 {
-int no,a,i,max=0;
+int no,a,i,max=INT_MIN;
 scanf("%d",&no);
 for(i=0;i<no;i++)
 {
