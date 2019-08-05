@@ -18,7 +18,7 @@ int main()
 {
 int no;
 scanf("%d",&no);
-isPowerOfTwo(no)? printf("Yes\n"): printf("No\n");
+isPowerOfTwo(no)? printf("yes"): printf("no\n");
 
 return 0;
 }
