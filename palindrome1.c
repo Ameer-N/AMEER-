@@ -11,7 +11,7 @@ int main()
    if(str[i]==str[last])
    {
        count++;
-       printf("%c %d %d\n",str[i],count,(strlen(str)/2));
+       //printf("%c %d %d\n",str[i],count,(strlen(str)/2));
        last--;
    }
 }
