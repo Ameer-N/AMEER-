@@ -8,5 +8,7 @@ int main()
     for(i=0;i<strlen(str);i++)
         if(str[i]>='0' && str[i]<='9')
               printf("%c",str[i]);
+        else
+            printf("");
 }
 
