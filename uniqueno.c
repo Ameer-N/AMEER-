@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<limits.h>
+
 int main()
 {
-int n,max=INT_MIN,i;
+int n,i;
 scanf("%d",&n);
 int arr[n],no[n];
 memset(arr,0,n*sizeof(int));
@@ -20,5 +20,4 @@ for(i=0;i<n;i++)
     }
 }
 }
-// 11
-// 1 2 4 4 2 3 3 8 9 8 9
+
